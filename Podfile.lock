@@ -1,0 +1,16 @@
+PODS:
+  - ESTabBarController (0.2)
+
+DEPENDENCIES:
+  - ESTabBarController (= 0.2)
+
+SPEC REPOS:
+  trunk:
+    - ESTabBarController
+
+SPEC CHECKSUMS:
+  ESTabBarController: e82ac0b135bec16fb646ac1da4ac8953fcd927da
+
+PODFILE CHECKSUM: f2afd9ad2c372e4e99a6e33bb211a25bbc624750
+
+COCOAPODS: 1.8.3
