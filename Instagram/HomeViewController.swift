@@ -31,6 +31,7 @@ class HomeViewController: UIViewController,UITableViewDataSource,UITableViewDele
         
         tableView.rowHeight=UITableView.automaticDimension
         tableView.estimatedRowHeight = UIScreen.main.bounds.height+100
+        
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)

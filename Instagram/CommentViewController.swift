@@ -20,8 +20,10 @@ class CommentViewController: UIViewController {
             return
         }
         let postRef=Database.database().reference().child(Const.Postpath).child((postData?.id!)!)
-        let comment=["comment":commentField.text!]
-        postRef.updateChildValues(comment)
+        let name=Auth.auth().currentUser?.displayName
+        postData?.comments.append(String(name!)+":"+commentField.text!)
+        let comment=["comments":postData?.comments]
+        postRef.updateChildValues(comment as [AnyHashable : Any])
         print("コメント更新しました!")
         self.view.endEditing(true)
         dismiss(animated: true, completion: nil)

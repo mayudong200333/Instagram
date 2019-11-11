@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 class PostTableCellTableViewCell: UITableViewCell {
 
@@ -50,10 +51,13 @@ class PostTableCellTableViewCell: UITableViewCell {
             let buttonImage=UIImage(named: "like_none")
             self.likeButton.setImage(buttonImage, for: .normal)
         }
-        if (postData.comment?.isEmpty)!{
+        if postData.comments.count == 0{
             commentField.text=""
         }else{
-            commentField.text="コメント:\(postData.name!):\(postData.comment!)"
+            commentField.text=""
+            for comment in postData.comments{
+                commentField.text! += "\(comment)\n"
+            }
         }
         
     }

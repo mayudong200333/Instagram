@@ -58,8 +58,8 @@
                         <rect key="frame" x="126" y="306" width="62" height="30"/>
                         <state key="normal" title="コメント"/>
                     </button>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="comment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="km7-7X-11j">
-                        <rect key="frame" x="26" y="381.5" width="240" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="km7-7X-11j">
+                        <rect key="frame" x="26" y="381.5" width="240" height="20.5"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="240" id="c1f-KR-HZn"/>
                         </constraints>
@@ -73,7 +73,6 @@
                     <constraint firstAttribute="trailingMargin" secondItem="QcD-NY-Hgo" secondAttribute="trailing" constant="10" id="1qb-pk-93c"/>
                     <constraint firstItem="5Dr-T7-GVF" firstAttribute="top" secondItem="VWg-pl-GeT" secondAttribute="bottom" constant="10" id="7et-8x-lXz"/>
                     <constraint firstAttribute="trailingMargin" secondItem="eyF-vC-FM0" secondAttribute="trailing" id="8Uh-mr-rdB"/>
-                    <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="5Dr-T7-GVF" secondAttribute="bottom" constant="10" id="8uF-8u-Rdm"/>
                     <constraint firstItem="km7-7X-11j" firstAttribute="leading" secondItem="5Dr-T7-GVF" secondAttribute="leading" id="A50-h2-DOJ"/>
                     <constraint firstItem="QcD-NY-Hgo" firstAttribute="leading" secondItem="yhB-UG-ewN" secondAttribute="trailing" constant="10" id="BEH-6Y-AhV"/>
                     <constraint firstAttribute="trailingMargin" secondItem="5Dr-T7-GVF" secondAttribute="trailing" constant="10" id="EqU-BY-HiX"/>
@@ -83,6 +82,7 @@
                     <constraint firstItem="y4t-OT-bj2" firstAttribute="leading" secondItem="yhB-UG-ewN" secondAttribute="trailing" constant="10" id="Ywb-cE-CTM"/>
                     <constraint firstItem="yhB-UG-ewN" firstAttribute="leading" secondItem="VWg-pl-GeT" secondAttribute="trailing" constant="10" id="byQ-va-fcA"/>
                     <constraint firstItem="y4t-OT-bj2" firstAttribute="centerY" secondItem="VWg-pl-GeT" secondAttribute="centerY" id="dt3-dT-s7I"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="km7-7X-11j" secondAttribute="bottom" constant="35" id="gL6-A7-7dV"/>
                     <constraint firstItem="QcD-NY-Hgo" firstAttribute="centerY" secondItem="VWg-pl-GeT" secondAttribute="centerY" id="hyE-gC-COQ"/>
                     <constraint firstItem="5Dr-T7-GVF" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="o0p-9k-hXi"/>
                     <constraint firstItem="eyF-vC-FM0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="xiU-Cc-NCJ"/>
